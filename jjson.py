@@ -51,4 +51,8 @@ def hashFor(data, salt):
 
 
 def remove_file(path, name_file):
-    os.remove(path + name_file)
+    try:
+        os.remove(path + name_file)
+
+    except:
+        pass
