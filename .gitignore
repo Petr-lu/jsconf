@@ -1,5 +1,6 @@
 /.history
+/__pycache__
+/Config
 
-example
 help compil.txt
-jjson.py
+.gitignore
